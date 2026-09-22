@@ -1,0 +1,37 @@
+{
+  "id": "evejs-cntext-fix",
+  "displayName": "中文文本修复 (CN Text Fix)",
+  "version": "1.0.3",
+  "author": {
+    "id": "au-mubd7h45x3e1",
+    "name": "波坤太叔",
+    "keyId": "691df6c7d2cd"
+  },
+  "description": "修复游戏内取中文字符在客户端显示为乱码，以及角色/舰船/建筑/物品的中文名被换成 Ship/Item/Structure <id> 的问题。但改为在内存中生效：不修改 server/ 和客户端任何文件。",
+  "category": "工具",
+  "tags": [
+    "语言"
+  ],
+  "readme": [],
+  "highlights": [],
+  "conflicts": [],
+  "requiresRestart": true,
+  "evejsVersions": [
+    "0.12.8"
+  ],
+  "sizeBytes": 10319,
+  "sha256": "832d1763a8c8a297c8844e7f189192f79f20393312b50e039ee453af416beab6",
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "url": "https://github.com/diguo520/evejs-mod-evejs-cntext-fix/releases/download/v1.0.3/evejs-cntext-fix-1.0.3.zip",
+      "priority": 1
+    }
+  ],
+  "changelog": "角色，建筑，舰船起名可使用中文",
+  "history": [],
+  "repo": "https://github.com/diguo520/evejs-mod-evejs-cntext-fix",
+  "featured": false,
+  "delisted": false,
+  "publishedAt": "2026-09-22"
+}
