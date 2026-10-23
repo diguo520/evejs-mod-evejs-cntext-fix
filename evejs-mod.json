@@ -5,7 +5,7 @@
     "name": "波坤太叔"
   },
   "category": "玩法",
-  "changelog": "对新版本做了兼容处理",
+  "changelog": "兼容 261018.x",
   "conflicts": [],
   "delisted": false,
   "description": "修复游戏内取中文字符在客户端显示为乱码，以及角色/舰船/建筑/物品的中文名被换成 Ship/Item/Structure <id> 的问题。但改为在内存中生效：不修改 server/ 和客户端任何文件。",
@@ -14,7 +14,7 @@
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/diguo520/evejs-mod-evejs-cntext-fix/releases/download/v1.0.6/evejs-cntext-fix-1.0.6.zip"
+      "url": "https://github.com/diguo520/evejs-mod-evejs-cntext-fix/releases/download/v1.0.8/evejs-cntext-fix-1.0.8.zip"
     }
   ],
   "evejsVersions": [
@@ -28,7 +28,7 @@
   ],
   "history": [],
   "id": "evejs-cntext-fix",
-  "publishedAt": "2026-10-21",
+  "publishedAt": "2026-10-23",
   "readme": [
     "角色，建筑，舰船起名可使用中文",
     "插件分两层，都是把该打的代码插进内存里（不落盘）：",
@@ -38,8 +38,8 @@
   ],
   "repo": "https://github.com/diguo520/evejs-mod-evejs-cntext-fix",
   "requiresRestart": true,
-  "sha256": "776113f74e144eb0f03a85be62c4bba8b708e6e8bacf7134d299a32ca3e0db99",
-  "sizeBytes": 13392,
+  "sha256": "9655399e2b8a020ae6d9240482e6ee55ed3424e08b19a0ffb2be38e792060bcf",
+  "sizeBytes": 19551,
   "tags": [],
-  "version": "1.0.6"
+  "version": "1.0.8"
 }
